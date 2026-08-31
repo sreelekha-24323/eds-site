@@ -1,0 +1,35 @@
+.banner {
+  border-radius: 16px;
+  background: blue;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
+}
+
+.banner-media {
+  min-height: 280px;
+  line-height: 0;
+}
+
+.banner picture {
+  display: block;
+  width: 200px;
+  height: 200px;
+  min-height: 280px;
+  object-fit: cover;
+}
+
+
+
+.banner p {
+  margin: 0 0 16px;
+  color: #4a4a4a;
+  font-size: 1.05rem;
+}
+
+.banner-content a.button {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+@media (width <= 767px) {
+ 
+}
