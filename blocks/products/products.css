@@ -8,5 +8,16 @@
   padding: 16px;
   margin-bottom: 12px;
   border-radius: 8px;
-  background: #f8f8f8;
+  background: #f5f5f5;
+}
+
+.product button {
+  margin: 10px 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.product button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
