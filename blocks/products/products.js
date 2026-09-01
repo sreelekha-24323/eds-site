@@ -34,7 +34,7 @@ export default async function decorate(block) {
       const li = document.createElement('li');
 
       li.innerHTML = `
-        <h3>${product.name}</h3>
+        <h6>${product.name}</h6>
         <p>Category: ${product.category}</p>
         <p>Price: ₹${product.price}</p>
       `;
