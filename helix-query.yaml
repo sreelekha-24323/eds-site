@@ -1,0 +1,16 @@
+indices:
+  blogs:
+    include:
+      - /**
+    target: /query-index.json
+    properties:
+      path:
+        select: head > meta[property="og:url"]
+      title:
+        select: head > title
+      description:
+        select: head > meta[name="description"]
+        value: attribute(content)
+      image:
+        select: head > meta[property="og:image"]
+        value: attribute(content)
